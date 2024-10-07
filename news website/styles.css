@@ -1,0 +1,130 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+.topnav a:hover {
+    background: #575757;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height:45vh;       
+}
+
+section img {
+    width: 40%;
+    height: 300px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
+.berita {
+    padding: 2rem;
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.berita h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Berita1, .Berita2 {
+    flex: 1;
+    min-width: 300px;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Berita1 img, .Berita2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Berita1 h2, .Berita2 h2 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.Berita1 h3, .Berita2 h3 {
+    font-size: 1rem;
+    color: #666;
+}
+
+.Berita1 h4, .Berita2 h4 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+footer .kanan, footer .kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007BFF;
+}
